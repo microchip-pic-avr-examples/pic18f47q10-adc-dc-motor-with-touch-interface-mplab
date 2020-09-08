@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-adc-dc-motor-with-touch-interface-mplab",
+        "version": "1.0.0",
+        "displayName": " DC Motor control with capacitive touch interface",
+        "projectName": "pic18f47q10-adc-dc-motor-with-touch-interface-mplab",
+        "shortDescription": "This application demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of PIC18F47Q10 MCU to control DC motor with capacitive touch interface.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLABX",
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.20.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.4.75"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,39 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F47Q10",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "MCC",
             [
-               "Peripherals", ""
+               "Peripherals", "mTouch"
             ],
             [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "Timer"
+            ],
+			[
+               "Peripherals", "PWM"
+            ],
+            [
+               "Peripherals", "GPIO"
+            ],
+			[
+			   "Peripherals", "ADCC"
+            ]	
         ],
         "peripherals": [
-            "",""
+            "mTouch","Timer","PWM","GPIO","ADCC"
         ],
         "keywords": [
-            "",
-            ""			
+            "Capacitive touch",
+            "DC Motor",
+			"PIC18F47Q10 Curiosity Nano",
+			"LED",
+			"QT7 Xplained Pro",
+			"Slider",
         ],
 		"additionalData": {
 			"longDescription": {

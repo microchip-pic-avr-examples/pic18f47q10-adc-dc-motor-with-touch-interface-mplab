@@ -24,7 +24,7 @@ In this application demo, Curiosity HPC development board with PIC18F47Q10 MCU, 
 To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained Pro extension board and its analog pins are required to acquire the capacitive touch sensors data, which is analog in nature. The application demo used ADC computation feature along with CVD technique to acquire the capacitive touch sensors data. The QT7 Xplained Pro extension board has got two touch Buttons (Button1 and Button2) and one Slider (Slider1). Additionally, the board has got 8-LED's for touch detection indication. The DC Motor 8 click board from MikroElektronika is used to drive the DC motor. The DC Motor 8 click relies on the MIC4605, 85V half-bridge MOSFET driver with adaptive dead time and shoot-through protection, from Microchip. The DC Motor 8 click employs a boost converter made of MIC2206, a 2MHz boost regulator from Microchip. The click board can drive motors with up to 40V with an output current of up to 1amp. The PWM signal from MCU drives the motor while the EN pin used to enable the device is also routed to the mikroBUS™ CS pin. Logic HIGH on EN pin will set the MIC4605 to work in normal mode, while logic LOW on EN pin will put the MIC4605 into the power conservative shutdown mode. This pin is pulled HIGH with the on board resistor. The application demo also used two LEDs (D2 and D3) mounted on Curiosity HPC board to show start and stop status of the DC motor. Figure 1 shows the basic block diagram of the implementation of the application demo.
 
 <p align="center">
-  <img width=auto height=auto src="blockdiagram.png">
+  <img width=auto height=auto src="images/blockdiagram.png">
   <br>Figure 1: Block diagram of DC motor control using touch interface<br>
 </p>
 

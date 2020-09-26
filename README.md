@@ -150,42 +150,42 @@ The application demonstrator demonstrate DC motor control using capacitive touch
 After System Reset, all LEDs present on the QT7 Xplained Pro board are in OFF state. LEDs D2 and D3 on Curiosity HPC development board are in OFF state and DC motor is turned OFF.
 
 <p align="center">
-  <img width=auto height=auto src="images/grayCodeEncoder.png">
+  <img width=auto height=auto src="images/initialstate.png">
   <br>Figure 14: DC motor is in the reset state <br>
 </p>
 
 Press Button1 to start the DC motor and run with pre-defined minimum speed. The Button1 indication LED turn ON to indicate the button press event. Also, the slider's lowest position LED turn ON to indicate start condition of the motor. Additionally, LED D3 on the Curiosity HPC development board turn ON to indicate the motor is running.
 
 <p align="center">
-  <img width=auto height=auto src="images/grayCodeEncoder.png">
+  <img width=auto height=auto src="images/lowestspeed.png">
   <br>Figure 15: DC motor starts running with pre-defined speed<br>
 </p>
 
 Using Slider adjust speed of the DC motor. As you move finger from left to right on the Slider, the speed of the motor gradually increases and indication LEDs gradually turn ON.
 
 <p align="center">
-  <img width=auto height=auto src="images/grayCodeEncoder.png">
+  <img width=auto height=auto src="images/increasingSpeed.png">
   <br>Figure 16: DC motor is runnning with moderate speed<br>
 </p>
 
 Once the finger reaches extreme right position on the Slider, the motor run at the highest speed and all the indication LEDs turn ON.
 
 <p align="center">
-  <img width=auto height=auto src="images/grayCodeEncoder.png">
+  <img width=auto height=auto src="images/highestspeed.png">
   <br>Figure 17: DC motor is runnning with the highest speed<br>
 </p>
 
 As you move finger from right to left on the Slider, the speed of the motor gradually reduces and indication LEDs gradually turn OFF. Once the finger reaches extreme left position on the Slider, the speed of the motor reduces to zero and stop rotating.
 
 <p align="center">
-  <img width=auto height=auto src="images/grayCodeEncoder.png">
+  <img width=auto height=auto src="images/lowestspeed.png">
   <br>Figure 18: DC motor is runnning with the lowest speed<br>
 </p>
 
 Press Button2 to stall the motor. The Button2 indication LED turn ON to indicate the button press event. Also, LED D2 of Curiosity HPC board turn ON to indicate the motor is stalled.
 
 <p align="center">
-  <img width=auto height=auto src="images/grayCodeEncoder.png">
+  <img width=auto height=auto src="images/motorStopped.png">
   <br>Figure 19: DC motor is stalled <br>
 </p>
 

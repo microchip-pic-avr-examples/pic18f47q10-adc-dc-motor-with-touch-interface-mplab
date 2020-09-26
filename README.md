@@ -134,8 +134,19 @@ Figure 13 shows the necessary connections between the development boards used fo
 
 |S No. | Xplained Pro Extension Header Pin Names | Signal Name of Pins of PIC18F47Q10 | Pin No.of QT7 Header1 |Signal Name of Pins of QT7|IN/OUT Pin configuration of MCU|
 |:---------:|:----------:|:-----------:|:---------:|:------------:|:------------:|	
-| 1 | AN3 | RA2 | 4 | Y-LINE-1 | IN |
-
+| 1     | AN3	| RA2	| 4	| Y-LINE-1   |	IN   |
+| 2     | RST2 	| RC7 	| 5 	| LED0       |  OUT  |
+| 3     | RST3 	| RD5 	| 6	| LED6       |  OUT  |
+| 4     | PWM2 	| RA4 	| 7	| Y-LINE-2   |	IN   |	
+| 5     | PWM3 	| RA5	| 8	| Y-LINE-3   |	IN   |
+| 6    	| INT2 	| RB4 	| 9	| Y-LINE-4   |  IN   |
+| 7     | CS3  	| RD7 	| 10	| Y-LINE-0   |  IN   |
+| 8     | SDA   | RB2   | 11    | LED7       |  OUT  |
+| 9     | SCL   | RB1   | 12    | LED1       |  OUT  |
+| 10    | CS2   | RD6   | 15    | LED2       |  OUT  |
+| 11    | MOSI  | RC4   | 16    | LED3       |  OUT  |
+| 12    | MISO  | RC5   | 17    | LED4       |  OUT  |
+| 13    | SCK   | RC6   | 18    | LED5       |  OUT  |
 
 ## Operation
 

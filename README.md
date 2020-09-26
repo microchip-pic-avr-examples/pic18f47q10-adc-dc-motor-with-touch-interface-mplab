@@ -133,8 +133,7 @@ Figure 13 shows the necessary connections between the development boards used fo
 ##### Table 1. Connections Between QT7 Extension Pro and Curiosity HPC Development Board.
 
 |S No. | Xplained Pro Extension Header Pin Names | Signal Name of Pins of PIC18F47Q10 | Pin No.of QT7 Header1 |Signal Name of Pins of QT7|IN/OUT Pin configuration of MCU|
-|:---------:|:----------:|:-----------:|:---------:|:------------:|:------------:|
-	
+|:---------:|:----------:|:-----------:|:---------:|:------------:|:------------:|	
 | 1 | AN3 | RA2 | 4 | Y-LINE-1 | IN |
 
 

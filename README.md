@@ -125,12 +125,12 @@ The PWM4 module configuration is shown in Figure 10.
 The Pin Manager Grid View and PIN module windows of MCC shows the peripheral pin configuration used in the application. Refer Figure 11 and Figure 12 for peripheral pin configuration details.
 
 <p align="center">
-  <img width=auto height=auto src="images/pinmanager.png">
+  <img width=750 height=auto src="images/pinmanager.png">
   <br>Figure 11: Pin Manager Grid View<br>
 </p>
 
 <p align="center">
-  <img width=auto height=auto src="images/pinmodule.png">
+  <img width=750 height=auto src="images/pinmodule.png">
   <br>Figure 12: PIN Module Configuration<br>
 </p>
 

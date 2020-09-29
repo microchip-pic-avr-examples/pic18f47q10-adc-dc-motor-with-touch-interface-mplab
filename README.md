@@ -23,11 +23,11 @@ The PIC18F Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC w
 
 ## Description
 
-In this application demo, Curiosity HPC development board with PIC18F47Q10 MCU, QT7 Xplained Pro extension board for capacitive touch sensors, and DC motor 8 Click board to control the DC motor are used. This application demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of the PIC18F47Q10 MCU to control the DC motor with touch interface. For more details about CVD technique please refer to the application note AN1478: mTouch™ Sensing Solution Acquisition Methods Capacitive Voltage Divider available on Microchip website. The firmware libraries for this demo example is generated with the help of MPLAB® X Code Configurator (MCC) plugin available with MPLAB X IDE. For more details about how to set up a basic mTouch project please refer to [mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide.](http://ww1.microchip.com/downloads/en/DeviceDoc/40001852A.pdf "mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide"). 
+In this application demo, Curiosity Nano Base click board with PIC18F47Q10 Curiosity Nano board, QT7 Xplained Pro extension board for capacitive touch sensors, and DC motor 8 Click board to control the DC motor are used. This application demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of the PIC18F47Q10 MCU to control the DC motor with touch interface. For more details about CVD technique please refer to the application note AN1478: mTouch™ Sensing Solution Acquisition Methods Capacitive Voltage Divider available on Microchip website. The firmware libraries for this demo example is generated with the help of MPLAB® X Code Configurator (MCC) plugin available with MPLAB X IDE. For more details about how to set up a basic mTouch project please refer to [mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide.](http://ww1.microchip.com/downloads/en/DeviceDoc/40001852A.pdf "mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide"). 
 
 ## DC motor control using touch interface
 
-To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained Pro extension board and its analog pins are required to acquire the capacitive touch sensors data, which is analog in nature. The application demo used ADC computation feature along with CVD technique to acquire the capacitive touch sensors data. The QT7 Xplained Pro extension board has got two touch Buttons (Button1 and Button2) and one Slider (Slider1). Additionally, the board has got 8-LED's for touch detection indication. The DC Motor 8 click board from MikroElektronika is used to drive the DC motor. The DC Motor 8 click relies on the MIC4605, 85V half-bridge MOSFET driver with adaptive dead time and shoot-through protection, from Microchip. The DC Motor 8 click employs a boost converter made of MIC2206, a 2MHz boost regulator from Microchip. The click board can drive motors with up to 40V with an output current of up to 1amp. The PWM signal from MCU drives the motor while the EN pin used to enable the device is also routed to the mikroBUS™ CS pin. Logic HIGH on EN pin will set the MIC4605 to work in normal mode, while logic LOW on EN pin will put the MIC4605 into the power conservative shutdown mode. This pin is pulled HIGH with the on board resistor. The application demo also used two LEDs (D2 and D3) mounted on Curiosity HPC board to show start and stop status of the DC motor. Figure 1 shows the basic block diagram of the implementation of the application demo.
+To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained Pro extension board and its analog pins are required to acquire the capacitive touch sensors data, which is analog in nature. The application demo used ADC computation feature along with CVD technique to acquire the capacitive touch sensors data. The QT7 Xplained Pro extension board has got two touch Buttons (Button1 and Button2) and one Slider (Slider1). Additionally, the board has got 8-LED's for touch detection indication. The DC Motor 8 click board from MikroElektronika is used to drive the DC motor. The DC Motor 8 click relies on the MIC4605, 85V half-bridge MOSFET driver with adaptive dead time and shoot-through protection, from Microchip. The DC Motor 8 click employs a boost converter made of MIC2206, a 2MHz boost regulator from Microchip. The click board can drive motors with up to 40V with an output current of up to 1amp. The PWM signal from MCU drives the motor while the EN pin used to enable the device is also routed to the mikroBUS™ CS pin. Logic HIGH on EN pin will set the MIC4605 to work in normal mode, while logic LOW on EN pin will put the MIC4605 into the power conservative shutdown mode. This pin is pulled HIGH with the on board resistor.Figure 1 shows the basic block diagram of the implementation of the application demo.
 
 <p align="center">
   <img width=auto height=auto src="images/blockdiagram.png">
@@ -45,8 +45,8 @@ To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained
 
 ## Hardware used
 
-- [PIC18F47Q10 Curiosity Nano](https://www.microchip.com/Developmenttools/ProductDetails/DM182029"PIC18F47Q10 Curiosity Nano")
-- [Curiosity Nano Base for Click boards](Curiosity Nano Base for Click boardsCuriosity Nano Base for Click boards "Curiosity Nano Base for Click boards")
+- [PIC18F47Q10 Curiosity Nano](https://www.microchip.com/Developmenttools/ProductDetails/DM182029 "PIC18F47Q10 Curiosity Nano")
+- [Curiosity Nano Base for Click boards](https://www.microchip.com/developmenttools/ProductDetails/AC164162 "Curiosity Nano Base for Click boards")
 - [DC Motor 8 click]( https://www.mikroe.com/dc-motor-8-click "DC Motor 8 click")
 
 ## MCC settings
@@ -141,9 +141,9 @@ The Pin Manager Grid View and PIN module windows of MCC shows the peripheral pin
   <br>Figure 13: Hardware setup<br>
 </p>
 
-Figure 13 shows the necessary connections between the development boards used for this application, it consists of QT7 Xplained Pro Extension board connected to Curiosity HPC board Header J11 using custom wire harness, DC motor 8 click connected to mikroBUS slot 1 of Curiosity HPC board and LED’s on the board.
+Figure 13 shows the necessary connections between the development boards used for this application, it consists of QT7 Xplained Pro Extension board connected to Curiosity Nano Base click board, DC motor 8 click connected to mikroBUS slot 1 of Curiosity Nano Base click board.
 
-### Table 1. Connections Between QT7 Extension Pro and Curiosity HPC Development Board.
+### Table 1. Connections Between QT7 Extension Pro and Curiosity Nano Base click board.
 
 |S No. | Xplained Pro Extension Header Pin Names | Signal Name of Pins of PIC18F47Q10 | Pin No.of QT7 Header1 |Signal Name of Pins of QT7|IN/OUT Pin configuration of MCU|
 |:---------:|:----------:|:-----------:|:---------:|:------------:|:------------:|	
@@ -169,14 +169,14 @@ The application demonstrator demonstrate DC motor control using capacitive touch
 2. Touch Button2 to stop the running motor.
 3. Slider to increase or decrease the motor speed.
 
-After System Reset, all LEDs present on the QT7 Xplained Pro board are in OFF state. LEDs D2 and D3 on Curiosity HPC development board are in OFF state and DC motor is turned OFF.
+After System Reset, all LEDs present on the QT7 Xplained Pro board are in OFF state and DC motor is turned OFF.
 
 <p align="center">
   <img width=auto height=auto src="images/initialstate.png">
   <br>Figure 14: DC motor is in the reset state <br>
 </p>
 
-Press Button1 to start the DC motor and run with pre-defined minimum speed. The Button1 indication LED turn ON to indicate the button press event. Also, the slider's lowest position LED turn ON to indicate start condition of the motor. Additionally, LED D3 on the Curiosity HPC development board turn ON to indicate the motor is running.
+Press Button1 to start the DC motor and run with pre-defined minimum speed. The Button1 indication LED turn ON to indicate the button press event. Also, the slider's lowest position LED turn ON to indicate start condition of the motor. 
 
 <p align="center">
   <img width=auto height=auto src="images/lowestspeed.png">
@@ -204,7 +204,7 @@ As you move finger from right to left on the Slider, the speed of the motor grad
   <br>Figure 18: DC motor is runnning with the lowest speed<br>
 </p>
 
-Press Button2 to stall the motor. The Button2 indication LED turn ON to indicate the button press event. Also, LED D2 of Curiosity HPC board turn ON to indicate the motor is stalled.
+Press Button2 to stall the motor. The Button2 indication LED turn ON to indicate the button press event. 
 
 <p align="center">
   <img width=auto height=auto src="images/motorStopped.png">

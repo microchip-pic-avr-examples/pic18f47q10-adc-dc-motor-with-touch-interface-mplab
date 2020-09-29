@@ -7,6 +7,12 @@
   
 The PIC18F Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC with Computation (ADCC) and Hardware Capacitive Voltage Divider (CVD) technique for advanced capacitive touch sensing which are used to demonstrate this application demo. Along with these peripherals, the PIC18F Q10 family has a rich set of analog & digital peripherals, communication modules, and Core Independent Peripherals. This application demo discuss one of the simple and very useful real-time control application, DC motor control using capacitive touch Buttons and Slider.
 
+##### To see the DC Motor control with Touch Interface demo operation video, click on the below image.
+
+<p align="center">
+<br><a href="https://youtu.be/-_WE2X03uRQ" rel="nofollow"><img src="images/videofrontimage.png" alt="AVR DA" width="500"/></a>
+</p>
+
 ## Useful Links
 
 - [PIC18F47Q10 Product Page](https://www.microchip.com/wwwproducts/en/PIC18F47Q10 "PIC18F47Q10 Product Page")
@@ -36,6 +42,12 @@ To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained
 - [PIC18F-Q_DFP v1.8.154](https://packs.download.microchip.com/ "PIC18F-Q_DFP v1.8.154")
 
 ***Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.***
+
+## Hardware used
+
+- [PIC18F47Q10 Curiosity Nano](https://www.microchip.com/Developmenttools/ProductDetails/DM182029"PIC18F47Q10 Curiosity Nano")
+- [Curiosity Nano Base for Click boards](Curiosity Nano Base for Click boardsCuriosity Nano Base for Click boards "Curiosity Nano Base for Click boards")
+- [DC Motor 8 click]( https://www.mikroe.com/dc-motor-8-click "DC Motor 8 click")
 
 ## MCC settings
 

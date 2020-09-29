@@ -11,7 +11,7 @@ The PIC18F Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC w
 
 - [PIC18F47Q10 Product Page](https://www.microchip.com/wwwproducts/en/PIC18F47Q10 "PIC18F47Q10 Product Page")
 - [PIC18F47Q10 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=PIC18F47Q10&type=&language= "PIC18F47Q10 Code Examples on GitHub")
-- [DC Motor Control with Touch Interface and IR Communications](http://ww1.microchip.com/downloads/en/AppNotes/AN2933-DC-Motor-Control-with-Touch-Interface-and-IR00002933A.pdf "DC Motor Control with Touch Interface and IR Communications")
+- [DC Motor Control with Touch Interface and IR Communication-Application Note](http://ww1.microchip.com/downloads/en/AppNotes/AN2933-DC-Motor-Control-with-Touch-Interface-and-IR00002933A.pdf "DC Motor Control with Touch Interface and IR Communications-Application Note")
 - [mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide.](http://ww1.microchip.com/downloads/en/DeviceDoc/40001852A.pdf "mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide.")
 
 
@@ -33,8 +33,9 @@ To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained
 - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide "MPLAB X IDE v5.40")
 - [XC8 Compiler v2.30](https://www.microchip.com/mplab/compilers "XC8 Compiler v2.20")
 - [MPLAB Code Configurator](https://www.microchip.com/mplab/mplab-code-configurator "MPLAB Code Configurator")
+- [PIC18F-Q_DFP v1.8.154](https://packs.download.microchip.com/ "PIC18F-Q_DFP v1.8.154")
 
-**Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.**
+***Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.***
 
 ## MCC settings
 
@@ -84,7 +85,7 @@ The overall hardware sensor setting and scan order are given in Figure 7 and Fig
   <br>Figure 7: mTouch Hardware Sensors Configuration <br>
 </p>
 
-#### Note: Scan order for Slider should be sequential
+***Note:*** Scan order for Slider should be sequential
 
 <p align="center">
   <img width=auto height=auto src="images/mtouch6.png">
@@ -130,7 +131,7 @@ The Pin Manager Grid View and PIN module windows of MCC shows the peripheral pin
 
 Figure 13 shows the necessary connections between the development boards used for this application, it consists of QT7 Xplained Pro Extension board connected to Curiosity HPC board Header J11 using custom wire harness, DC motor 8 click connected to mikroBUS slot 1 of Curiosity HPC board and LED’s on the board.
 
-##### Table 1. Connections Between QT7 Extension Pro and Curiosity HPC Development Board.
+### Table 1. Connections Between QT7 Extension Pro and Curiosity HPC Development Board.
 
 |S No. | Xplained Pro Extension Header Pin Names | Signal Name of Pins of PIC18F47Q10 | Pin No.of QT7 Header1 |Signal Name of Pins of QT7|IN/OUT Pin configuration of MCU|
 |:---------:|:----------:|:-----------:|:---------:|:------------:|:------------:|	
@@ -155,8 +156,6 @@ The application demonstrator demonstrate DC motor control using capacitive touch
 1. Touch Button1 to start the motor.
 2. Touch Button2 to stop the running motor.
 3. Slider to increase or decrease the motor speed.
-
-***Note:*** To evaluate this application demo, download the firmware associated with Xpress page. Build the firmware solution using MPLAB X IDE and load the generated .hex file into the PIC18F Q10 MCU.
 
 After System Reset, all LEDs present on the QT7 Xplained Pro board are in OFF state. LEDs D2 and D3 on Curiosity HPC development board are in OFF state and DC motor is turned OFF.
 

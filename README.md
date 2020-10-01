@@ -1,13 +1,13 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="200"/></a>
 
-## DC motor control with Capacitive Touch Interface
+## DC Motor control with Capacitive Touch Interface
 
 ## Introduction
   
-The PIC18F Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC with Computation (ADCC) and Hardware Capacitive Voltage Divider (CVD) technique for advanced capacitive touch sensing which are used to demonstrate this application demo. Along with these peripherals, the PIC18F Q10 family has a rich set of analog & digital peripherals, communication modules, and Core Independent Peripherals. This application demo discuss one of the simple and very useful real-time control application, DC motor control using capacitive touch Buttons and Slider.
+The PIC18F-Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC with Computation (ADCC) and Hardware Capacitive Voltage Divider (CVD) technique for advanced capacitive touch sensing which are used to demonstrate this application demo. Along with these peripherals, the PIC18F-Q10 family has a rich set of analog & digital peripherals, communication modules, and Core Independent Peripherals. This application demo discuss one of the simple and very useful real-time control application, DC motor control using capacitive touch Buttons and Slider.
 
-##### To see the DC Motor control with Touch Interface demo operation video, click on the below image.
+### To see the DC Motor control with Capacitive Touch Interface demo operation video, click on the below image.
 
 <p align="center">
 <br><a href="https://youtu.be/-_WE2X03uRQ" rel="nofollow"><img src="images/videofrontimage.png" alt="AVR DA" width="500"/></a>
@@ -23,7 +23,7 @@ The PIC18F Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC w
 
 ## Description
 
-In this application demo, Curiosity Nano Base click board with PIC18F47Q10 Curiosity Nano board, QT7 Xplained Pro extension board for capacitive touch sensors, and DC motor 8 Click board to control the DC motor are used. This application demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of the PIC18F47Q10 MCU to control the DC motor with touch interface. For more details about CVD technique please refer to the application note AN1478: mTouch™ Sensing Solution Acquisition Methods Capacitive Voltage Divider available on Microchip website. The firmware libraries for this demo example is generated with the help of MPLAB® X Code Configurator (MCC) plugin available with MPLAB X IDE. For more details about how to set up a basic mTouch project please refer to [mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide.](http://ww1.microchip.com/downloads/en/DeviceDoc/40001852A.pdf "mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide"). 
+In this application demo, Curiosity Nano base for click boards with PIC18F47Q10 Curiosity Nano board, QT7 Xplained Pro extension board for capacitive touch sensors, and DC motor 8 Click board to control the DC motor are used. This application demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of the PIC18F47Q10 MCU to control the DC motor with touch interface. For more details about CVD technique please refer to the application note AN1478: mTouch™ Sensing Solution Acquisition Methods Capacitive Voltage Divider available on Microchip website. The firmware libraries for this demo example is generated with the help of MPLAB® X Code Configurator (MCC) plugin available with MPLAB X IDE. For more details about how to set up a basic mTouch project please refer to [mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide.](http://ww1.microchip.com/downloads/en/DeviceDoc/40001852A.pdf "mTouch® Capacitive Sensing Library Module for Mplab® X Code Configurator User’s Guide"). 
 
 ## DC motor control using touch interface
 
@@ -141,9 +141,9 @@ The Pin Manager Grid View and PIN module windows of MCC shows the peripheral pin
   <br>Figure 13: Hardware setup<br>
 </p>
 
-Figure 13 shows the necessary connections between the development boards used for this application, it consists of QT7 Xplained Pro Extension board connected to Curiosity Nano Base click board, DC motor 8 click connected to mikroBUS slot 1 of Curiosity Nano Base click board.
+Figure 13 shows the necessary connections between the development boards used for this application, it consists of QT7 Xplained Pro Extension board connected to Curiosity Nano Base for click boards, DC motor 8 click connected to mikroBUS slot 1 of Curiosity Nano Base for click board.
 
-### Table 1. Connections Between QT7 Extension Pro and Curiosity Nano Base click board.
+### Table 1. Connections Between QT7 Extension Pro and Curiosity Nano Base for click boards.
 
 |S No. | Xplained Pro Extension Header Pin Names | Signal Name of Pins of PIC18F47Q10 | Pin No.of QT7 Header1 |Signal Name of Pins of QT7|IN/OUT Pin configuration of MCU|
 |:---------:|:----------:|:-----------:|:---------:|:------------:|:------------:|	
@@ -213,6 +213,6 @@ Press Button2 to stall the motor. The Button2 indication LED turn ON to indicate
 
 ## Conclusion
 
-This application demo demonstrates the usage of important peripherals of PIC18F Q10 family of MCUs such as ADCC with CVD, PWM, and timer for simple real-time control applications. The combination of PWM and other core independent peripherals along with advanced analog peripherals such as ADCC with Hardware CVD available in PIC18FxxQ10 MCUs offer the lower system cost, low power, reliable and predictable application development. The Q10 family of MCUs can be used for a wide range of general purpose, low-power and, reliable, deterministic real-time control applications.
+This application demo demonstrates the usage of important peripherals of PIC18F-Q10 family of MCUs such as ADCC with CVD, PWM, and timer for simple real-time control applications. The combination of PWM and other core independent peripherals along with advanced analog peripherals such as ADCC with Hardware CVD available in PIC18FxxQ10 MCUs offer the lower system cost, low power, reliable and predictable application development. The Q10 family of MCUs can be used for a wide range of general purpose, low-power and, reliable, deterministic real-time control applications.
 
 

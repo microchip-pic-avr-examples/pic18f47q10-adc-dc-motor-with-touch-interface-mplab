@@ -1,11 +1,11 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="200"/></a>
 
-## DC Motor control with Capacitive Touch Interface
+## DC Motor Control using Capacitive Touch Interface
 
 ## Introduction
   
-The PIC18F-Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC with Computation (ADCC) and Hardware Capacitive Voltage Divider (CVD) technique for advanced capacitive touch sensing which are used to demonstrate this application demo. Along with these peripherals, the PIC18F-Q10 family has a rich set of analog & digital peripherals, communication modules, and Core Independent Peripherals. This application demo discuss one of the simple and very useful real-time control application, DC motor control using capacitive touch Buttons and Slider.
+The PIC18-Q10 family of microcontrollers (MCUs) is equipped with a 10-bit ADC with Computation (ADCC) and Hardware Capacitive Voltage Divider (CVD) technique for advanced capacitive touch sensing which are used to demonstrate this application demo. Along with these peripherals, the PIC18-Q10 family has a rich set of analog & digital peripherals, communication modules, and Core Independent Peripherals. This application demo discuss one of the simple and very useful real-time control application, DC motor control using capacitive touch Buttons and Slider.
 
 ### To see the DC Motor control with Capacitive Touch Interface demo operation video, click on the below image.
 
@@ -213,6 +213,6 @@ Press Button2 to stall the motor. The Button2 indication LED turn ON to indicate
 
 ## Conclusion
 
-This application demo demonstrates the usage of important peripherals of PIC18F-Q10 family of MCUs such as ADCC with CVD, PWM, and timer for simple real-time control applications. The combination of PWM and other core independent peripherals along with advanced analog peripherals such as ADCC with Hardware CVD available in PIC18FxxQ10 MCUs offer the lower system cost, low power, reliable and predictable application development. The Q10 family of MCUs can be used for a wide range of general purpose, low-power and, reliable, deterministic real-time control applications.
+This application demo demonstrates the usage of important peripherals of PIC18-Q10 family of MCUs such as ADCC with CVD, PWM, and timer for simple real-time control applications. The combination of PWM and other core independent peripherals along with advanced analog peripherals such as ADCC with Hardware CVD available in PIC18FxxQ10 MCUs offer the lower system cost, low power, reliable and predictable application development. The Q10 family of MCUs can be used for a wide range of general purpose, low-power and, reliable, deterministic real-time control applications.
 
 

@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-adc-dc-motor-with-touch-interface-mplab",
         "version": "1.0.0",
-        "displayName": " DC Motor control with Capacitive Touch Interface",
+        "displayName": " DC Motor Control using Capacitive Touch Interface",
         "projectName": "pic18f47q10-adc-dc-motor-with-touch-interface-mplab",
         "shortDescription": "This demo is developed using PIC18 Q10 family MCU and Curiosity Nano development board. The demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of PIC18F47Q10 MCU to control DC motor through capacitive touch interface.",
         "ide": {
@@ -40,7 +40,7 @@
         "subcategories": [
             "MCC",
             [
-               "Peripherals", "mTouch"
+               "Peripherals", "CVD"
             ],
             [
                "Peripherals", "TMR2"
@@ -53,7 +53,7 @@
             ]	
         ],
         "peripherals": [
-            "mTouch","TMR2","PWM4","ADCC"
+            "CVD","TMR2","PWM4","ADCC"
         ],
         "keywords": [
             "Capacitive touch",

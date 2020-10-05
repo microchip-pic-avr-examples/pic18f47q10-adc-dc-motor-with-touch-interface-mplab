@@ -214,6 +214,6 @@ Press Button2 to stall the motor. The Button2 indication LED turn ON to indicate
 
 ## Conclusion
 
-This application demo demonstrates the usage of important peripherals of PIC18-Q10 family of MCUs such as ADCC with CVD, PWM, and timer for simple real-time control applications. The combination of PWM and other core independent peripherals along with advanced analog peripherals such as ADCC with Hardware CVD available in PIC18FxxQ10 MCUs offer the lower system cost, low power, reliable and predictable application development. The Q10 family of MCUs can be used for a wide range of general purpose, low-power and, reliable, deterministic real-time control applications.
+This application demo demonstrates the usage of important peripherals of PIC18-Q10 family of MCUs such as ADCC with CVD, PWM, and timer for simple real-time control applications. The combination of PWM and other core independent peripherals along with advanced analog peripherals such as ADCC with Hardware CVD available in PIC18-Q10 family of MCUs offer the lower system cost, low power, reliable and predictable application development. The Q10 family of MCUs can be used for a wide range of general purpose, low-power and, reliable, deterministic real-time control applications.
 
 

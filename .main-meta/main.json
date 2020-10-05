@@ -40,9 +40,6 @@
         "subcategories": [
             "MCC",
             [
-               "Peripherals", "CVD"
-            ],
-            [
                "Peripherals", "TMR2"
             ],
 			[
@@ -53,9 +50,11 @@
             ]	
         ],
         "peripherals": [
-            "CVD","TMR2","PWM4","ADCC"
+            "TMR2","PWM4","ADCC"
         ],
         "keywords": [
+			"Hardware CVD",
+			"mTouch",
             "Capacitive touch",
             "DC Motor",
 			"PIC18F47Q10 Curiosity Nano",

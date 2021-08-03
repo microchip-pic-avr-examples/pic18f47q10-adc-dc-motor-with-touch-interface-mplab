@@ -36,10 +36,10 @@ To develop this application, the PIC18F47Q10 MCU is interfaced with QT7 Xplained
 
 ## Software  Tools
 
-- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide "MPLAB X IDE v5.40")
-- [XC8 Compiler v2.30](https://www.microchip.com/mplab/compilers "XC8 Compiler v2.20")
-- [MPLAB Code Configurator](https://www.microchip.com/mplab/mplab-code-configurator "MPLAB Code Configurator")
-- [PIC18F-Q_DFP v1.8.154](https://packs.download.microchip.com/ "PIC18F-Q_DFP v1.8.154")
+- MPLAB X IDE [v5.40.0 or newer](https://www.microchip.com/mplab/mplab-x-ide "v5.40.0 or newer")
+- XC8 Compiler [v2.30 or newer](https://www.microchip.com/mplab/compilers "v2.30 or newer")
+- MPLAB Code Configurator (MCC)[v3.95.0 or newer](https://www.microchip.com/mplab/mplab-code-configurator "v3.95.0 or newer")
+- Microchip PIC18F-Q Series Device Support [1.12.193 or newer](https://packs.download.microchip.com/ "1.12.193 or newer")
 
 ***Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.***
 

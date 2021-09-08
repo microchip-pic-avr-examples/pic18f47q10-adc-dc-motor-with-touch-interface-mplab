@@ -53,9 +53,7 @@
             "TMR2","PWM","ADCC"
         ],
         "keywords": [
-			"Gesture",
 			"mTouch",
-            "HID",
             "CVD",
 			"Curiosity Nano",
 			"Fan Controller",

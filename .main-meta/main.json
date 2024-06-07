@@ -2,29 +2,29 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-adc-dc-motor-with-touch-interface-mplab",
-        "version": "1.0.2",
+        "version": "2.0.0",
         "displayName": "DC Motor Control using Capacitive Touch Interface",
         "projectName": "pic18f47q10-adc-dc-motor-with-touch-interface-mplab",
         "shortDescription": "This demo is developed using PIC18-Q10 family MCU and Curiosity Nano development board. The demo demonstrates the usage of ADCC with hardware CVD technique and PWM peripherals of PIC18F47Q10 MCU to control DC motor through capacitive touch interface.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.40.0"
+            "semverRange": ">=6.20.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.30.0"
+				"semverRange": "^2.46.0"
 			}
 		],
         "dfp": {
             "name": "PIC18F-Q_DFP",
-            "semverRange": "^1.8.154"
+            "semverRange": "^1.25.433"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=4.0.1"
+            "semverRange": ">=5.5.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,26 +36,14 @@
                 "versionRange": "*"
             }
         },
-        "author": "Microchip",
-        "subcategories": [
-            "Motor Control",
-            [
-               "Peripherals", "TMR2"
-            ],
-			[
-               "Peripherals", "PWM"
-            ],
-			[
-			   "Peripherals", "ADCC"
-            ]	
-        ],
+        "author": "Prasanna Mahendravada",
+       
         "peripherals": [
             "TMR2","PWM","ADCC"
         ],
         "keywords": [
 			"mTouch",
-            "CVD",
-			"Curiosity Nano",
+                        "CVD",
 			"Fan Controller",
 			"Slider",
 			"Motor Control PWM",

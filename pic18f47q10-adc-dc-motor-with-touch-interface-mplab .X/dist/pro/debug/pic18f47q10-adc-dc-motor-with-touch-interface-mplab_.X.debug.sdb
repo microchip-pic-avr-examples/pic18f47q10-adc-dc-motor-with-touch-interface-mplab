@@ -1,0 +1,1862 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q10 ]
+[d frameptr 4065 ]
+"100 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/adc/src/adcc.c
+[e E12906 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"80 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/timer/src/tmr2.c
+[e E12923 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"86
+[e E12946 . `uc
+TMR2_T2INPPS_PIN 0
+TMR2_TMR4_POSTSCALED 2
+TMR2_TMR6_POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_PWM3_OUT 6
+TMR2_PWM4_OUT 7
+TMR2_SYNC_C1OUT 8
+TMR2_SYNC_C2OUT 9
+TMR2_ZCD_OUT 10
+TMR2_EUSART1_DT 12
+TMR2_EUSART1_TX_CK 13
+TMR2_EUSART2_DT 14
+TMR2_EUSART2_TX_CK 15
+TMR2_CLC1_OUT 16
+TMR2_CLC2_OUT 17
+TMR2_CLC3_OUT 18
+TMR2_CLC4_OUT 19
+TMR2_CLC5_OUT 20
+TMR2_CLC6_OUT 21
+TMR2_CLC7_OUT 22
+TMR2_CLC8_OUT 23
+]
+"59 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/example/touch_example.c
+[e E102 mtouch_button_names `uc
+Button0 0
+Button1 1
+Slider0_Seg0 2
+Slider0_Seg1 3
+Slider0_Seg2 4
+]
+"73
+[e E13195 mtouch_slider_names `uc
+Slider0 0
+]
+"95 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[e E13138 mtouch_button_names `uc
+Button0 0
+Button1 1
+Slider0_Seg0 2
+Slider0_Seg1 3
+Slider0_Seg2 4
+]
+[e E13072 mtouch_sensor_names `uc
+Sensor_ANA2 0
+Sensor_AND7 1
+Sensor_ANB4 2
+Sensor_ANA5 3
+Sensor_ANA4 4
+]
+[e E13444 mtouch_button_state `uc
+MTOUCH_BUTTON_STATE_initializing 0
+MTOUCH_BUTTON_STATE_notPressed 1
+MTOUCH_BUTTON_STATE_pressed 2
+]
+[e E13448 mtouch_button_aks_group `uc
+NO_AKS_GROUP 0
+AKS_GROUP_1 1
+AKS_GROUP_2 2
+AKS_GROUP_3 3
+AKS_GROUP_4 4
+AKS_GROUP_5 5
+AKS_GROUP_6 6
+AKS_GROUP_7 7
+MAX_AKS_GROUP 8
+]
+"333
+[e E13458 mtouch_button_hysteresis_thresholds `uc
+HYST_50_PERCENT 1
+HYST_25_PERCENT 2
+HYST_12_5_PERCENT 3
+HYST_6_25_PERCENT 4
+HYST_MAX 5
+]
+"103 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[e E13201 mtouch_slider_names `uc
+Slider0 0
+]
+[e E13198 mtouch_slider_type `uc
+MTOUCH_TYPE_SLIDER 0
+MTOUCH_TYPE_WHEEL 1
+]
+[e E13038 mtouch_sensor_names `uc
+Sensor_ANA2 0
+Sensor_AND7 1
+Sensor_ANB4 2
+Sensor_ANA5 3
+Sensor_ANA4 4
+]
+[e E13203 tag_resolution_t `uc
+SCR_RESOL_2_BIT 2
+SCR_RESOL_3_BIT 3
+SCR_RESOL_4_BIT 4
+SCR_RESOL_5_BIT 5
+SCR_RESOL_6_BIT 6
+SCR_RESOL_7_BIT 7
+SCR_RESOL_8_BIT 8
+SCR_RESOL_9_BIT 9
+SCR_RESOL_10_BIT 10
+SCR_RESOL_11_BIT 11
+SCR_RESOL_12_BIT 12
+]
+[e E13216 tag_deadband_t `uc
+SCR_DB_NONE 0
+SCR_DB_1_PERCENT 1
+SCR_DB_2_PERCENT 2
+SCR_DB_3_PERCENT 3
+SCR_DB_4_PERCENT 4
+SCR_DB_5_PERCENT 5
+SCR_DB_6_PERCENT 6
+SCR_DB_7_PERCENT 7
+SCR_DB_8_PERCENT 8
+SCR_DB_9_PERCENT 9
+SCR_DB_10_PERCENT 10
+SCR_DB_11_PERCENT 11
+SCR_DB_12_PERCENT 12
+SCR_DB_13_PERCENT 13
+SCR_DB_14_PERCENT 14
+SCR_DB_15_PERCENT 15
+]
+"420
+[e E13104 mtouch_button_names `uc
+Button0 0
+Button1 1
+Slider0_Seg0 2
+Slider0_Seg1 3
+Slider0_Seg2 4
+]
+"666
+[e E13444 mtouch_slider_state `uc
+MTOUCH_SLIDER_STATE_initializing 0
+MTOUCH_SLIDER_STATE_notPressed 1
+MTOUCH_SLIDER_STATE_pressed 2
+]
+"149 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[e E13072 mtouch_sensor_names `uc
+Sensor_ANA2 0
+Sensor_AND7 1
+Sensor_ANB4 2
+Sensor_ANA5 3
+Sensor_ANA4 4
+]
+"233
+[e E13078 mtouch_sensor_error `c
+MTOUCH_SENSOR_ERROR_none 0
+MTOUCH_SENSOR_ERROR_invalid_index -1
+MTOUCH_SENSOR_ERROR_interrupt_notEnabled -2
+MTOUCH_SENSOR_ERROR_invalid_calibrate -3
+MTOUCH_SENSOR_ERROR_tooManyRetries -4
+MTOUCH_SENSOR_ERROR_scanOverrun -5
+MTOUCH_SENSOR_ERROR_interruptedScan -6
+]
+"57 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\main.c
+[e E13104 mtouch_button_names `uc
+Button0 0
+Button1 1
+Slider0_Seg0 2
+Slider0_Seg1 3
+Slider0_Seg2 4
+]
+"58
+[e E13166 mtouch_slider_names `uc
+Slider0 0
+]
+"24 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\application.c
+[e E13283 . `uc
+NO_KEY 0
+BUTTON1 1
+BUTTON2 2
+SLIDER 3
+MAX_KEYS 4
+]
+[e E13277 . `uc
+KEY_NO_ACTION 0
+KEY_PRESSED 1
+KEY_RELEASED 2
+MAX_KEY_STATE 3
+]
+"127
+[e E13104 mtouch_button_names `uc
+Button0 0
+Button1 1
+Slider0_Seg0 2
+Slider0_Seg1 3
+Slider0_Seg2 4
+]
+"147
+[e E13166 mtouch_slider_names `uc
+Slider0 0
+]
+"29
+[v _ApplicationTask ApplicationTask `(v  1 e 1 0 ]
+"127
+[v _ProcessButtonRelease ProcessButtonRelease `(v  1 e 1 0 ]
+"147
+[v _ProcessSliderChange ProcessSliderChange `(v  1 e 1 0 ]
+"154
+[v _GetEvent GetEvent `(E13277  1 e 1 0 ]
+"159
+[v _ClearEvent ClearEvent `(v  1 e 1 0 ]
+"164
+[v _GetButton GetButton `(E13283  1 e 1 0 ]
+"169
+[v _ClearButton ClearButton `(v  1 e 1 0 ]
+"174
+[v _GetMotorSpeed GetMotorSpeed `(us  1 e 2 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"36 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\main.c
+[v _main main `(v  1 e 1 0 ]
+"47 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"285
+[v _ADCC_ThresholdISR ADCC_ThresholdISR `(v  1 e 1 0 ]
+"296
+[v _ADCC_SetADTIInterruptHandler ADCC_SetADTIInterruptHandler `(v  1 e 1 0 ]
+"301
+[v _ADCC_DefaultADTI_ISR ADCC_DefaultADTI_ISR `(v  1 s 1 ADCC_DefaultADTI_ISR ]
+"45 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/pwm/src/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 1 0 ]
+"62
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 1 0 ]
+"37 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"113
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"122
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"126
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"139
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"148
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"152
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"165
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"174
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"178
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"130
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"36 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"92
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"98
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"117
+[v _TMR2_PeriodCountSet TMR2_PeriodCountSet `(v  1 e 1 0 ]
+"122
+[v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
+"127
+[v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
+"133
+[v _TMR2_Tasks TMR2_Tasks `(v  1 e 1 0 ]
+"82 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch.c
+[v _MTOUCH_Initialize MTOUCH_Initialize `(v  1 e 1 0 ]
+"98
+[v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `(a  1 e 1 0 ]
+"132
+[v _MTOUCH_Tick MTOUCH_Tick `(v  1 e 1 0 ]
+"142
+[v _MTOUCH_needReburst MTOUCH_needReburst `(a  1 s 1 MTOUCH_needReburst ]
+"194 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_Initialize MTOUCH_Button_Initialize `(v  1 e 1 0 ]
+"206
+[v _MTOUCH_Button_InitializeAll MTOUCH_Button_InitializeAll `(v  1 e 1 0 ]
+"224
+[v _MTOUCH_Button_ServiceAll MTOUCH_Button_ServiceAll `(v  1 e 1 0 ]
+"235
+[v _Button_Service Button_Service `(v  1 s 1 Button_Service ]
+"252
+[v _Button_State_Initializing Button_State_Initializing `(v  1 s 1 Button_State_Initializing ]
+"272
+[v _Button_State_NotPressed Button_State_NotPressed `(v  1 s 1 Button_State_NotPressed ]
+"323
+[v _Button_State_Pressed Button_State_Pressed `(v  1 s 1 Button_State_Pressed ]
+"347
+[v _MTOUCH_Button_Tick MTOUCH_Button_Tick `(v  1 e 1 0 ]
+"355
+[v _Button_Tick_helper Button_Tick_helper `(v  1 s 1 Button_Tick_helper ]
+"424
+[v _MTOUCH_Button_isPressed MTOUCH_Button_isPressed `(a  1 e 1 0 ]
+"441
+[v _MTOUCH_Button_Deviation_Get MTOUCH_Button_Deviation_Get `(c  1 e 1 0 ]
+"449
+[v _Button_Deviation_Update Button_Deviation_Update `(v  1 s 1 Button_Deviation_Update ]
+"471
+[v _Button_Unscaled_Deviation_Get Button_Unscaled_Deviation_Get `(us  1 s 2 Button_Unscaled_Deviation_Get ]
+"502
+[v _Button_Reading_Update Button_Reading_Update `(v  1 s 1 Button_Reading_Update ]
+"516
+[v _Button_Reading_Update_Helper Button_Reading_Update_Helper `(v  1 s 1 Button_Reading_Update_Helper ]
+"529
+[v _Button_Baseline_Initialize Button_Baseline_Initialize `(v  1 s 1 Button_Baseline_Initialize ]
+"535
+[v _Button_Baseline_Update Button_Baseline_Update `(v  1 s 1 Button_Baseline_Update ]
+"559
+[v _Button_Baseline_Get_helper Button_Baseline_Get_helper `(us  1 s 2 Button_Baseline_Get_helper ]
+"578
+[v _Button_Check_AKS_Block Button_Check_AKS_Block `(a  1 s 1 Button_Check_AKS_Block ]
+"621
+[v _Button_DefaultCallback Button_DefaultCallback `(v  1 s 1 Button_DefaultCallback ]
+"626
+[v _MTOUCH_Button_SetNotPressedCallback MTOUCH_Button_SetNotPressedCallback `(v  1 e 1 0 ]
+"233 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Initialize MTOUCH_Sensor_Initialize `(E13078  1 e 1 0 ]
+"242
+[v _Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 Sensor_SetTrisBit ]
+[v i2_Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 i2_Sensor_SetTrisBit ]
+"272
+[v _MTOUCH_Sensor_ADCC_Initialize MTOUCH_Sensor_ADCC_Initialize `(v  1 e 1 0 ]
+"316
+[v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `(v  1 e 1 0 ]
+"329
+[v _MTOUCH_Sensor_isSamplingComplete MTOUCH_Sensor_isSamplingComplete `(a  1 e 1 0 ]
+"349
+[v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `(a  1 e 1 0 ]
+"393
+[v _MTOUCH_Sensor_Scan_Initialize MTOUCH_Sensor_Scan_Initialize `(v  1 e 1 0 ]
+"405
+[v _Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 Sensor_scheduleNextScan ]
+[v i2_Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 i2_Sensor_scheduleNextScan ]
+"518
+[v _MTOUCH_Sensor_postAcquisitionProcess MTOUCH_Sensor_postAcquisitionProcess `(v  1 e 1 0 ]
+"538
+[v _ADCC_ThresholdISR_mTouch ADCC_ThresholdISR_mTouch `(v  1 e 1 0 ]
+"551
+[v _MTOUCH_Sensor_Service MTOUCH_Sensor_Service `T(v  1 s 1 MTOUCH_Sensor_Service ]
+"610
+[v _Sensor_setSamplePeriod Sensor_setSamplePeriod `(v  1 s 1 Sensor_setSamplePeriod ]
+"622
+[v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `(us  1 e 2 0 ]
+"641
+[v _Sensor_RawSample_Update Sensor_RawSample_Update `(v  1 s 1 Sensor_RawSample_Update ]
+"658
+[v _medianFilter medianFilter `(us  1 s 2 medianFilter ]
+"699
+[v _Sensor_FrequencyHopping Sensor_FrequencyHopping `(v  1 s 1 Sensor_FrequencyHopping ]
+"712
+[v _Sensor_DefaultCallback Sensor_DefaultCallback `(v  1 s 1 Sensor_DefaultCallback ]
+"733
+[v _MTOUCH_Sensor_Enable MTOUCH_Sensor_Enable `(v  1 e 1 0 ]
+"739
+[v _MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(a  1 e 1 0 ]
+[v i2_MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(a  1 e 1 0 ]
+"795
+[v _MTOUCH_Sensor_Calibrate MTOUCH_Sensor_Calibrate `(v  1 e 1 0 ]
+"803
+[v _MTOUCH_Sensor_isCalibrated MTOUCH_Sensor_isCalibrated `(a  1 e 1 0 ]
+"811
+[v _Sensor_isCalibrated Sensor_isCalibrated `T(a  1 s 1 Sensor_isCalibrated ]
+[v i2_Sensor_isCalibrated Sensor_isCalibrated `T(a  1 s 1 i2_Sensor_isCalibrated ]
+"816
+[v _Sensor_setCalibrated Sensor_setCalibrated `(v  1 s 1 Sensor_setCalibrated ]
+"822
+[v _Sensor_setCalibratAcqTime Sensor_setCalibratAcqTime `(v  1 s 1 Sensor_setCalibratAcqTime ]
+"829
+[v _Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(a  1 s 1 Sensor_isCalibratingAcqTime ]
+[v i2_Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(a  1 s 1 i2_Sensor_isCalibratingAcqTime ]
+"842
+[v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `(v  1 e 1 0 ]
+"851
+[v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(a  1 e 1 0 ]
+[v i2_MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(a  1 e 1 0 ]
+"859
+[v _Sensor_Sampled_Reset Sensor_Sampled_Reset `T(v  1 s 1 Sensor_Sampled_Reset ]
+"864
+[v _Sensor_setSampled Sensor_setSampled `T(v  1 s 1 Sensor_setSampled ]
+"869
+[v _MTOUCH_Sensor_isSampling MTOUCH_Sensor_isSampling `(a  1 e 1 0 ]
+"904
+[v _MTOUCH_Sensor_Oversampling_Get MTOUCH_Sensor_Oversampling_Get `(uc  1 e 1 0 ]
+"912
+[v _MTOUCH_Sensor_Oversampling_Set MTOUCH_Sensor_Oversampling_Set `(v  1 e 1 0 ]
+"191 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[v _divide divide `(us  1 s 2 divide ]
+"251
+[v _get_difference get_difference `(s  1 s 2 get_difference ]
+"289
+[v _positional_hysteresis positional_hysteresis `(us  1 s 2 positional_hysteresis ]
+"341
+[v _moving_average_filter moving_average_filter `(us  1 s 2 moving_average_filter ]
+"385
+[v _interpolate interpolate `(us  1 s 2 interpolate ]
+"408
+[v _Slider_FindMiddle Slider_FindMiddle `(s  1 s 2 Slider_FindMiddle ]
+"438
+[v _Slider_FindLeft Slider_FindLeft `(s  1 s 2 Slider_FindLeft ]
+"484
+[v _Slider_FindRight Slider_FindRight `(s  1 s 2 Slider_FindRight ]
+"522
+[v _calculate_raw_position calculate_raw_position `(us  1 s 2 calculate_raw_position ]
+"628
+[v _calculate_contact_size calculate_contact_size `(us  1 s 2 calculate_contact_size ]
+"658
+[v _calculate_position calculate_position `(us  1 s 2 calculate_position ]
+"690
+[v _Slider_Service Slider_Service `(v  1 s 1 Slider_Service ]
+"795
+[v _Slider_Initialize Slider_Initialize `(v  1 s 1 Slider_Initialize ]
+"873
+[v _MTOUCH_Slider_isPositionChanged MTOUCH_Slider_isPositionChanged `(a  1 e 1 0 ]
+"904
+[v _MTOUCH_Slider_Position_Get MTOUCH_Slider_Position_Get `(us  1 e 2 0 ]
+"965
+[v _MTOUCH_Slider_InitializeAll MTOUCH_Slider_InitializeAll `(v  1 e 1 0 ]
+"980
+[v _MTOUCH_Slider_ServiceAll MTOUCH_Slider_ServiceAll `(v  1 e 1 0 ]
+"999
+[v _Slider_DefaultCallback Slider_DefaultCallback `(v  1 s 1 Slider_DefaultCallback ]
+"1000
+[v _MTOUCH_Slider_SetPositionChangedCallback MTOUCH_Slider_SetPositionChangedCallback `(v  1 e 1 0 ]
+[s S2508 . 4 `E13283 1 key 1 0 `E13277 1 keyStatus 1 1 `us 1 sliderADCValue 2 2 ]
+"24 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\application.c
+[v _keyInfo keyInfo `S2508  1 s 4 keyInfo ]
+"25
+[v _state state `us  1 s 2 state ]
+"26
+[v _buttonNo buttonNo `E13283  1 s 1 buttonNo ]
+"27
+[v _motorState motorState `us  1 s 2 motorState ]
+[s S467 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"15230 C:/Users/I76627/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f47q10.h
+[u S474 . 1 `S467 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES474  1 e 1 @3773 ]
+[s S69 . 1 `uc 1 ADIE 1 0 :1:0 
+`uc 1 ADTIE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"15274
+[u S75 . 1 `S69 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES75  1 e 1 @3774 ]
+[s S420 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"15647
+[u S427 . 1 `S420 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES427  1 e 1 @3781 ]
+[s S44 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"15691
+[u S50 . 1 `S44 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES50  1 e 1 @3782 ]
+[s S709 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"15859
+[u S716 . 1 `S709 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES716  1 e 1 @3785 ]
+"16627
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16767
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16919
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16970
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17028
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"17677
+[v _RA3PPS RA3PPS `VEuc  1 e 1 @3813 ]
+"19085
+[v _IOCAF IOCAF `VEuc  1 e 1 @3845 ]
+"19147
+[v _IOCAN IOCAN `VEuc  1 e 1 @3846 ]
+"19209
+[v _IOCAP IOCAP `VEuc  1 e 1 @3847 ]
+"19271
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"19333
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"19395
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"19457
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19519
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19581
+[v _IOCBF IOCBF `VEuc  1 e 1 @3853 ]
+"19643
+[v _IOCBN IOCBN `VEuc  1 e 1 @3854 ]
+"19705
+[v _IOCBP IOCBP `VEuc  1 e 1 @3855 ]
+"19767
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19829
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19891
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19953
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"20015
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20077
+[v _IOCCF IOCCF `VEuc  1 e 1 @3861 ]
+"20139
+[v _IOCCN IOCCN `VEuc  1 e 1 @3862 ]
+"20201
+[v _IOCCP IOCCP `VEuc  1 e 1 @3863 ]
+"20263
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"20325
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"20387
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"20449
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20511
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20573
+[v _INLVLD INLVLD `VEuc  1 e 1 @3869 ]
+"20635
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3870 ]
+"20697
+[v _ODCOND ODCOND `VEuc  1 e 1 @3871 ]
+"20759
+[v _WPUD WPUD `VEuc  1 e 1 @3872 ]
+"20821
+[v _ANSELD ANSELD `VEuc  1 e 1 @3873 ]
+"20883
+[v _IOCEF IOCEF `VEuc  1 e 1 @3874 ]
+"20904
+[v _IOCEN IOCEN `VEuc  1 e 1 @3875 ]
+"20925
+[v _IOCEP IOCEP `VEuc  1 e 1 @3876 ]
+"20946
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"20984
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3878 ]
+"21016
+[v _ODCONE ODCONE `VEuc  1 e 1 @3879 ]
+"21048
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"21086
+[v _ANSELE ANSELE `VEuc  1 e 1 @3881 ]
+"24332
+[v _ADACT ADACT `VEuc  1 e 1 @3921 ]
+"24384
+[v _ADCLK ADCLK `VEuc  1 e 1 @3922 ]
+"24442
+[v _ADREF ADREF `VEuc  1 e 1 @3923 ]
+"24483
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @3924 ]
+"24522
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @3925 ]
+"24599
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @3926 ]
+"24670
+[v _ADACQ ADACQ `VEuc  1 e 1 @3927 ]
+"24740
+[v _ADCAP ADCAP `VEuc  1 e 1 @3928 ]
+"24792
+[v _ADPRE ADPRE `VEuc  1 e 1 @3929 ]
+"24862
+[v _ADPCH ADPCH `VEuc  1 e 1 @3930 ]
+"24920
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3931 ]
+[s S89 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"24955
+[s S98 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S102 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S104 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S106 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S108 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S111 . 1 `S89 1 . 1 0 `S98 1 . 1 0 `S102 1 . 1 0 `S104 1 . 1 0 `S106 1 . 1 0 `S108 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES111  1 e 1 @3931 ]
+"25022
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @3932 ]
+"25092
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @3933 ]
+"25169
+[v _ADRESL ADRESL `VEuc  1 e 1 @3934 ]
+"25239
+[v _ADRESH ADRESH `VEuc  1 e 1 @3935 ]
+"25301
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @3936 ]
+"25366
+[v _ADRPT ADRPT `VEuc  1 e 1 @3937 ]
+"25436
+[v _ADCNT ADCNT `VEuc  1 e 1 @3938 ]
+"25513
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @3939 ]
+"25583
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @3940 ]
+"25660
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @3941 ]
+"25730
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @3942 ]
+"25807
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @3943 ]
+"25877
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @3944 ]
+"25954
+[v _ADERRL ADERRL `VEuc  1 e 1 @3945 ]
+"26024
+[v _ADERRH ADERRH `VEuc  1 e 1 @3946 ]
+"26094
+[v _ADACC ADACC `VEus  1 e 2 @3947 ]
+"26101
+[v _ADACCL ADACCL `VEuc  1 e 1 @3947 ]
+"26171
+[v _ADACCH ADACCH `VEuc  1 e 1 @3948 ]
+"26241
+[v _ADFLTR ADFLTR `VEus  1 e 2 @3949 ]
+"26248
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @3949 ]
+"26318
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @3950 ]
+"27490
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+"27552
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+[s S2571 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"27569
+[u S2580 . 1 `S2571 1 . 1 0 ]
+[v _LATBbits LATBbits `VES2580  1 e 1 @3971 ]
+"27614
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+[s S2550 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"27631
+[u S2559 . 1 `S2550 1 . 1 0 ]
+[v _LATCbits LATCbits `VES2559  1 e 1 @3972 ]
+"27676
+[v _LATD LATD `VEuc  1 e 1 @3973 ]
+[s S2528 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"27693
+[u S2537 . 1 `S2528 1 . 1 0 ]
+[v _LATDbits LATDbits `VES2537  1 e 1 @3973 ]
+"27738
+[v _LATE LATE `VEuc  1 e 1 @3974 ]
+"27770
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+[s S1915 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"27792
+[u S1924 . 1 `S1915 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES1924  1 e 1 @3975 ]
+"27892
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+[s S1957 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"27914
+[u S1966 . 1 `S1957 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1966  1 e 1 @3976 ]
+"28014
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28136
+[v _TRISD TRISD `VEuc  1 e 1 @3978 ]
+[s S1936 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"28158
+[u S1945 . 1 `S1936 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES1945  1 e 1 @3978 ]
+"28258
+[v _TRISE TRISE `VEuc  1 e 1 @3979 ]
+"30480
+[v _PWM4DCL PWM4DCL `VEuc  1 e 1 @3999 ]
+"30546
+[v _PWM4DCH PWM4DCH `VEuc  1 e 1 @4000 ]
+"30716
+[v _PWM4CON PWM4CON `VEuc  1 e 1 @4001 ]
+[s S332 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 P3TSEL 1 0 :2:4 
+`uc 1 P4TSEL 1 0 :2:6 
+]
+"31536
+[s S337 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 P3TSEL0 1 0 :1:4 
+`uc 1 P3TSEL1 1 0 :1:5 
+`uc 1 P4TSEL0 1 0 :1:6 
+`uc 1 P4TSEL1 1 0 :1:7 
+]
+[u S346 . 1 `S332 1 . 1 0 `S337 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES346  1 e 1 @4013 ]
+"32801
+[v _T2TMR T2TMR `VEuc  1 e 1 @4026 ]
+"32839
+[v _T2PR T2PR `VEuc  1 e 1 @4027 ]
+"32844
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+"32877
+[v _T2CON T2CON `VEuc  1 e 1 @4028 ]
+[s S860 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"32913
+[s S864 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+"32913
+[s S868 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+"32913
+[s S876 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+"32913
+[u S885 . 1 `S860 1 . 1 0 `S864 1 . 1 0 `S868 1 . 1 0 `S876 1 . 1 0 ]
+"32913
+"32913
+[v _T2CONbits T2CONbits `VES885  1 e 1 @4028 ]
+"33023
+[v _T2HLT T2HLT `VEuc  1 e 1 @4029 ]
+"33151
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @4030 ]
+"33309
+[v _T2RST T2RST `VEuc  1 e 1 @4031 ]
+[s S383 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"38244
+[s S391 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"38244
+[s S395 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"38244
+[u S399 . 1 `S383 1 . 1 0 `S391 1 . 1 0 `S395 1 . 1 0 ]
+"38244
+"38244
+[v _INTCONbits INTCONbits `VES399  1 e 1 @4082 ]
+"40646
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"40 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_ADTI_InterruptHandler ADCC_ADTI_InterruptHandler `*.38(v  1 s 3 ADCC_ADTI_InterruptHandler ]
+"50 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_OverflowCallback TMR2_OverflowCallback `*.38(v  1 s 3 TMR2_OverflowCallback ]
+"51 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch.c
+[v _mtouch_time_toScan mtouch_time_toScan `a  1 s 1 mtouch_time_toScan ]
+"52
+[v _mtouch_request_init mtouch_request_init `a  1 s 1 mtouch_request_init ]
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"95 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _mtouch_button_init mtouch_button_init `C[5]S1074  1 e 85 0 ]
+"144
+[v _mtouch_button mtouch_button `[5]S1074  1 s 85 mtouch_button ]
+"173
+[v _callback_notPressed callback_notPressed `*.38(v  1 s 3 callback_notPressed ]
+"181
+[v _Button_StateMachine Button_StateMachine `[3]*.38(v  1 e 9 0 ]
+"156 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _sensor_medianBuffer sensor_medianBuffer `[5][3]us  1 s 30 sensor_medianBuffer ]
+"157
+[v _packet_sample packet_sample `[5]us  1 s 10 packet_sample ]
+"158
+[v _currentScanSensor currentScanSensor `E13072  1 s 1 currentScanSensor ]
+"159
+[v _sampling_flag sampling_flag `a  1 s 1 sampling_flag ]
+"160
+[v _scanInterrupted scanInterrupted `VEa  1 s 1 scanInterrupted ]
+"161
+[v _lowpowerActivated lowpowerActivated `a  1 s 1 lowpowerActivated ]
+"174
+[v _freq_index freq_index `uc  1 s 1 freq_index ]
+"175
+[v _freq_hop freq_hop `[3]uc  1 s 3 freq_hop ]
+"176
+[v _sample_delay sample_delay `uc  1 s 1 sample_delay ]
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+"183
+[v _mtouch_sensor_init mtouch_sensor_init `C[5]S1882  1 e 50 0 ]
+"226
+[v _mtouch_sensor mtouch_sensor `[5]S1882  1 s 50 mtouch_sensor ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"103 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[v _mtouch_slider mtouch_slider `[1]S1492  1 s 17 mtouch_slider ]
+"119
+[v _resol_value resol_value `us  1 s 2 resol_value ]
+"120
+[v _resol_bits resol_bits `uc  1 s 1 resol_bits ]
+"121
+[v _middle_node middle_node `uc  1 s 1 middle_node ]
+"122
+[v _wheel_sensor_middle_channel_zero wheel_sensor_middle_channel_zero `a  1 s 1 wheel_sensor_middle_channel_zero ]
+"123
+[v _left_signal left_signal `s  1 s 2 left_signal ]
+[v _right_signal right_signal `s  1 s 2 right_signal ]
+[v _middle_signal middle_signal `s  1 s 2 middle_signal ]
+"144
+[v _callback_position_changed callback_position_changed `*.38(v  1 s 3 callback_position_changed ]
+"36 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"66
+} 0
+"36 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"45
+} 0
+"57 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"122
+[v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR2_OverflowCallbackRegister@InterruptHandler InterruptHandler `*.38(v  1 p 3 20 ]
+"125
+} 0
+"45 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/pwm/src/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"38 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"128
+} 0
+"42 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"174
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 20 ]
+"176
+} 0
+"148
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 20 ]
+"150
+} 0
+"122
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 20 ]
+"124
+} 0
+"37 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"47 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"1000 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[v _MTOUCH_Slider_SetPositionChangedCallback MTOUCH_Slider_SetPositionChangedCallback `(v  1 e 1 0 ]
+{
+[v MTOUCH_Slider_SetPositionChangedCallback@callback callback `*.38(v  1 p 3 20 ]
+"1003
+} 0
+"98 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch.c
+[v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `(a  1 e 1 0 ]
+{
+"125
+} 0
+"142
+[v _MTOUCH_needReburst MTOUCH_needReburst `(a  1 s 1 MTOUCH_needReburst ]
+{
+"147
+} 0
+"132
+[v _MTOUCH_Tick MTOUCH_Tick `(v  1 e 1 0 ]
+{
+"135
+} 0
+"347 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_Tick MTOUCH_Button_Tick `(v  1 e 1 0 ]
+{
+"349
+[v MTOUCH_Button_Tick@i i `uc  1 a 1 24 ]
+"354
+} 0
+"355
+[v _Button_Tick_helper Button_Tick_helper `(v  1 s 1 Button_Tick_helper ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Tick_helper@button button `*.39S1074  1 p 2 20 ]
+"366
+} 0
+"980 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[v _MTOUCH_Slider_ServiceAll MTOUCH_Slider_ServiceAll `(v  1 e 1 0 ]
+{
+"982
+[v MTOUCH_Slider_ServiceAll@slider slider `E13201  1 a 1 49 ]
+"991
+} 0
+"690
+[v _Slider_Service Slider_Service `(v  1 s 1 Slider_Service ]
+{
+[v Slider_Service@sliderName sliderName `E13201  1 a 1 wreg ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"700
+[v Slider_Service@slider slider `*.30S1492  1 a 1 8 ]
+"693
+[v Slider_Service@segment segment `us  1 a 2 5 ]
+[v Slider_Service@position position `us  1 a 2 2 ]
+"694
+[v Slider_Service@status status `uc  1 a 1 4 ]
+"695
+[v Slider_Service@valid_contact_found valid_contact_found `uc  1 a 1 1 ]
+"694
+[v Slider_Service@group_status group_status `uc  1 a 1 0 ]
+"690
+[v Slider_Service@sliderName sliderName `E13201  1 a 1 wreg ]
+"694
+[v Slider_Service@sliderName sliderName `E13201  1 a 1 7 ]
+"788
+} 0
+"658
+[v _calculate_position calculate_position `(us  1 s 2 calculate_position ]
+{
+"660
+[v calculate_position@raw_position raw_position `us  1 a 2 14 ]
+[v calculate_position@filtered_position filtered_position `us  1 a 2 12 ]
+[v calculate_position@position position `us  1 a 2 10 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"658
+[v calculate_position@slider slider `*.30S1492  1 p 1 47 ]
+"683
+} 0
+"289
+[v _positional_hysteresis positional_hysteresis `(us  1 s 2 positional_hysteresis ]
+{
+"293
+[v positional_hysteresis@distance distance `s  1 a 2 44 ]
+"291
+[v positional_hysteresis@filtered_position filtered_position `us  1 a 2 40 ]
+[v positional_hysteresis@previous_position previous_position `us  1 a 2 38 ]
+"294
+[v positional_hysteresis@polarity polarity `uc  1 a 1 43 ]
+"292
+[v positional_hysteresis@hyst_width hyst_width `uc  1 a 1 42 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"289
+[v positional_hysteresis@slider slider `*.30S1492  1 p 1 32 ]
+[v positional_hysteresis@current_position current_position `us  1 p 2 33 ]
+"332
+} 0
+"341
+[v _moving_average_filter moving_average_filter `(us  1 s 2 moving_average_filter ]
+{
+"345
+[v moving_average_filter@distance distance `s  1 a 2 43 ]
+"343
+[v moving_average_filter@dist_temp dist_temp `us  1 a 2 41 ]
+"344
+[v moving_average_filter@previous_position previous_position `us  1 a 2 39 ]
+"343
+[v moving_average_filter@filtered_position filtered_position `us  1 a 2 37 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"341
+[v moving_average_filter@slider slider `*.30S1492  1 p 1 32 ]
+[v moving_average_filter@current_position current_position `us  1 p 2 33 ]
+"378
+} 0
+"251
+[v _get_difference get_difference `(s  1 s 2 get_difference ]
+{
+"253
+[v get_difference@diff diff `s  1 a 2 30 ]
+"254
+[v get_difference@rollover_threshold rollover_threshold `us  1 a 2 28 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"251
+[v get_difference@slider slider `*.30S1492  1 p 1 20 ]
+[v get_difference@previous_position previous_position `us  1 p 2 21 ]
+[v get_difference@current_position current_position `us  1 p 2 23 ]
+"282
+} 0
+"522
+[v _calculate_raw_position calculate_raw_position `(us  1 s 2 calculate_raw_position ]
+{
+"528
+[v calculate_raw_position@position position `us  1 a 2 8 ]
+[v calculate_raw_position@deadband deadband `us  1 a 2 4 ]
+[v calculate_raw_position@deadband_set deadband_set `us  1 a 2 1 ]
+"527
+[v calculate_raw_position@size size `uc  1 a 1 7 ]
+"525
+[v calculate_raw_position@interpolation_bits interpolation_bits `uc  1 a 1 6 ]
+"526
+[v calculate_raw_position@interpolation_scale interpolation_scale `uc  1 a 1 3 ]
+"524
+[v calculate_raw_position@ref_node ref_node `uc  1 a 1 0 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"522
+[v calculate_raw_position@slider slider `*.30S1492  1 p 1 40 ]
+"621
+} 0
+"385
+[v _interpolate interpolate `(us  1 s 2 interpolate ]
+{
+"387
+[v interpolate@rtnval rtnval `us  1 a 2 38 ]
+"385
+[v interpolate@delta1 delta1 `us  1 p 2 27 ]
+[v interpolate@delta2 delta2 `us  1 p 2 29 ]
+[v interpolate@delta3 delta3 `us  1 p 2 31 ]
+[v interpolate@num_bits num_bits `uc  1 p 1 33 ]
+"401
+} 0
+"191
+[v _divide divide `(us  1 s 2 divide ]
+{
+"193
+[v divide@result result `us  1 a 2 25 ]
+"191
+[v divide@numerator numerator `us  1 p 2 20 ]
+[v divide@denominator denominator `us  1 p 2 22 ]
+[v divide@exponent exponent `uc  1 p 1 24 ]
+"242
+} 0
+"628
+[v _calculate_contact_size calculate_contact_size `(us  1 s 2 calculate_contact_size ]
+{
+"630
+[v calculate_contact_size@contact_size contact_size `us  1 a 2 36 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"628
+[v calculate_contact_size@slider slider `*.30S1492  1 p 1 32 ]
+"651
+} 0
+"484
+[v _Slider_FindRight Slider_FindRight `(s  1 s 2 Slider_FindRight ]
+{
+"486
+[v Slider_FindRight@ref_node ref_node `uc  1 a 1 29 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"484
+[v Slider_FindRight@slider slider `*.30S1492  1 p 1 21 ]
+"515
+} 0
+"408
+[v _Slider_FindMiddle Slider_FindMiddle `(s  1 s 2 Slider_FindMiddle ]
+{
+"411
+[v Slider_FindMiddle@maximumDelta maximumDelta `s  1 a 2 29 ]
+[v Slider_FindMiddle@channelDelta channelDelta `s  1 a 2 27 ]
+"410
+[v Slider_FindMiddle@i i `uc  1 a 1 31 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"408
+[v Slider_FindMiddle@slider slider `*.30S1492  1 p 1 21 ]
+"431
+} 0
+"438
+[v _Slider_FindLeft Slider_FindLeft `(s  1 s 2 Slider_FindLeft ]
+{
+"440
+[v Slider_FindLeft@ref_node ref_node `uc  1 a 1 24 ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"438
+[v Slider_FindLeft@slider slider `*.30S1492  1 p 1 21 ]
+"477
+} 0
+"441 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_Deviation_Get MTOUCH_Button_Deviation_Get `(c  1 e 1 0 ]
+{
+[v MTOUCH_Button_Deviation_Get@name name `E13138  1 a 1 wreg ]
+[v MTOUCH_Button_Deviation_Get@name name `E13138  1 a 1 wreg ]
+"443
+[v MTOUCH_Button_Deviation_Get@name name `E13138  1 a 1 20 ]
+"447
+} 0
+"147 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\application.c
+[v _ProcessSliderChange ProcessSliderChange `(v  1 e 1 0 ]
+{
+"152
+} 0
+"999 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[v _Slider_DefaultCallback Slider_DefaultCallback `(v  1 s 1 Slider_DefaultCallback ]
+{
+} 0
+"904
+[v _MTOUCH_Slider_Position_Get MTOUCH_Slider_Position_Get `(us  1 e 2 0 ]
+{
+[v MTOUCH_Slider_Position_Get@sliderName sliderName `E13201  1 a 1 wreg ]
+[v MTOUCH_Slider_Position_Get@sliderName sliderName `E13201  1 a 1 wreg ]
+"906
+[v MTOUCH_Slider_Position_Get@sliderName sliderName `E13201  1 a 1 22 ]
+"912
+} 0
+"424 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_isPressed MTOUCH_Button_isPressed `(a  1 e 1 0 ]
+{
+[v MTOUCH_Button_isPressed@name name `E13138  1 a 1 wreg ]
+[v MTOUCH_Button_isPressed@name name `E13138  1 a 1 wreg ]
+"426
+[v MTOUCH_Button_isPressed@name name `E13138  1 a 1 21 ]
+"430
+} 0
+"349 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `(a  1 e 1 0 ]
+{
+"361
+} 0
+"699
+[v _Sensor_FrequencyHopping Sensor_FrequencyHopping `(v  1 s 1 Sensor_FrequencyHopping ]
+{
+"704
+} 0
+"610
+[v _Sensor_setSamplePeriod Sensor_setSamplePeriod `(v  1 s 1 Sensor_setSamplePeriod ]
+{
+"616
+} 0
+"518
+[v _MTOUCH_Sensor_postAcquisitionProcess MTOUCH_Sensor_postAcquisitionProcess `(v  1 e 1 0 ]
+{
+"520
+[v MTOUCH_Sensor_postAcquisitionProcess@name name `E13072  1 a 1 30 ]
+"530
+} 0
+"641
+[v _Sensor_RawSample_Update Sensor_RawSample_Update `(v  1 s 1 Sensor_RawSample_Update ]
+{
+"643
+[v Sensor_RawSample_Update@result result `us  1 a 2 28 ]
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+"641
+[v Sensor_RawSample_Update@sensor sensor `*.30S1882  1 p 1 27 ]
+"655
+} 0
+"658
+[v _medianFilter medianFilter `(us  1 s 2 medianFilter ]
+{
+[v medianFilter@sensor sensor `E13072  1 a 1 wreg ]
+[v medianFilter@sensor sensor `E13072  1 a 1 wreg ]
+"660
+[v medianFilter@bufferIndex bufferIndex `[5]uc  1 s 5 bufferIndex ]
+"662
+[v medianFilter@sensor sensor `E13072  1 a 1 26 ]
+"692
+} 0
+"712
+[v _Sensor_DefaultCallback Sensor_DefaultCallback `(v  1 s 1 Sensor_DefaultCallback ]
+{
+} 0
+"329
+[v _MTOUCH_Sensor_isSamplingComplete MTOUCH_Sensor_isSamplingComplete `(a  1 e 1 0 ]
+{
+"331
+[v MTOUCH_Sensor_isSamplingComplete@sensor sensor `E13072  1 a 1 31 ]
+"346
+} 0
+"405
+[v _Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 Sensor_scheduleNextScan ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+"407
+[v Sensor_scheduleNextScan@sensor sensor `*.30S1882  1 a 1 30 ]
+"408
+[v Sensor_scheduleNextScan@skipScan skipScan `a  1 a 1 29 ]
+"409
+[v Sensor_scheduleNextScan@state state `a  1 a 1 28 ]
+"459
+} 0
+"829
+[v _Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(a  1 s 1 Sensor_isCalibratingAcqTime ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v Sensor_isCalibratingAcqTime@sensor sensor `*.30S1882  1 p 1 20 ]
+"833
+} 0
+"811
+[v _Sensor_isCalibrated Sensor_isCalibrated `T(a  1 s 1 Sensor_isCalibrated ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v Sensor_isCalibrated@sensor sensor `*.30S1882  1 p 1 20 ]
+"814
+} 0
+"242
+[v _Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 Sensor_SetTrisBit ]
+{
+[v Sensor_SetTrisBit@sensor sensor `E13072  1 a 1 wreg ]
+[v Sensor_SetTrisBit@sensor sensor `E13072  1 a 1 wreg ]
+[v Sensor_SetTrisBit@TrisBit TrisBit `uc  1 p 1 20 ]
+[v Sensor_SetTrisBit@sensor sensor `E13072  1 a 1 23 ]
+"264
+} 0
+"869
+[v _MTOUCH_Sensor_isSampling MTOUCH_Sensor_isSampling `(a  1 e 1 0 ]
+{
+"872
+} 0
+"82 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch.c
+[v _MTOUCH_Initialize MTOUCH_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"965 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_slider.c
+[v _MTOUCH_Slider_InitializeAll MTOUCH_Slider_InitializeAll `(v  1 e 1 0 ]
+{
+"967
+[v MTOUCH_Slider_InitializeAll@slider slider `E13201  1 a 1 22 ]
+"973
+} 0
+"795
+[v _Slider_Initialize Slider_Initialize `(v  1 s 1 Slider_Initialize ]
+{
+[v Slider_Initialize@sliderName sliderName `E13201  1 a 1 wreg ]
+[s S1492 . 17 `CE13201 1 slider 1 0 `CE13198 1 type 1 1 `CE13038 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `us 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `us 1 rawPosition 2 10 `us 1 sliderPosition 2 12 `us 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"799
+[v Slider_Initialize@slider slider `*.30S1492  1 a 1 21 ]
+"795
+[v Slider_Initialize@sliderName sliderName `E13201  1 a 1 wreg ]
+"797
+[v Slider_Initialize@sliderName sliderName `E13201  1 a 1 20 ]
+"811
+} 0
+"393 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Scan_Initialize MTOUCH_Sensor_Scan_Initialize `(v  1 e 1 0 ]
+{
+"397
+} 0
+"272
+[v _MTOUCH_Sensor_ADCC_Initialize MTOUCH_Sensor_ADCC_Initialize `(v  1 e 1 0 ]
+{
+"313
+} 0
+"296 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_SetADTIInterruptHandler ADCC_SetADTIInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADCC_SetADTIInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 20 ]
+"299
+} 0
+"842 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `(v  1 e 1 0 ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+"844
+[v MTOUCH_Sensor_Sampled_ResetAll@sensor sensor `*.30S1882  1 a 1 22 ]
+"849
+} 0
+"316
+[v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `(v  1 e 1 0 ]
+{
+"318
+[v MTOUCH_Sensor_InitializeAll@sensor sensor `E13072  1 a 1 29 ]
+"326
+} 0
+"233
+[v _MTOUCH_Sensor_Initialize MTOUCH_Sensor_Initialize `(E13078  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Initialize@sensor sensor `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_Initialize@sensor sensor `E13072  1 a 1 wreg ]
+"235
+[v MTOUCH_Sensor_Initialize@sensor sensor `E13072  1 a 1 21 ]
+"240
+} 0
+"859
+[v _Sensor_Sampled_Reset Sensor_Sampled_Reset `T(v  1 s 1 Sensor_Sampled_Reset ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v Sensor_Sampled_Reset@sensor sensor `*.30S1882  1 p 1 20 ]
+"862
+} 0
+"733
+[v _MTOUCH_Sensor_Enable MTOUCH_Sensor_Enable `(v  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Enable@sensor sensor `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_Enable@sensor sensor `E13072  1 a 1 wreg ]
+"735
+[v MTOUCH_Sensor_Enable@sensor sensor `E13072  1 a 1 20 ]
+"737
+} 0
+"206 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_InitializeAll MTOUCH_Button_InitializeAll `(v  1 e 1 0 ]
+{
+"208
+[v MTOUCH_Button_InitializeAll@button button `E13138  1 a 1 29 ]
+"216
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"7
+[v memcpy@d d `*.39uc  1 a 2 26 ]
+"8
+[v memcpy@s s `*.31Cuc  1 a 1 28 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 25 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 20 ]
+[v memcpy@s1 s1 `*.31Cv  1 p 1 22 ]
+[v memcpy@n n `ui  1 p 2 23 ]
+"18
+} 0
+"224 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_ServiceAll MTOUCH_Button_ServiceAll `(v  1 e 1 0 ]
+{
+"226
+[v MTOUCH_Button_ServiceAll@button button `E13138  1 a 1 0 ]
+"233
+} 0
+"235
+[v _Button_Service Button_Service `(v  1 s 1 Button_Service ]
+{
+[v Button_Service@name name `E13138  1 a 1 wreg ]
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"237
+[v Button_Service@button button `*.39S1074  1 a 2 48 ]
+"235
+[v Button_Service@name name `E13138  1 a 1 wreg ]
+"237
+[v Button_Service@name name `E13138  1 a 1 47 ]
+"250
+} 0
+"851 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(a  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E13072  1 a 1 wreg ]
+"853
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E13072  1 a 1 20 ]
+"857
+} 0
+"803
+[v _MTOUCH_Sensor_isCalibrated MTOUCH_Sensor_isCalibrated `(a  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E13072  1 a 1 wreg ]
+"805
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E13072  1 a 1 20 ]
+"809
+} 0
+"272 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _Button_State_NotPressed Button_State_NotPressed `(v  1 s 1 Button_State_NotPressed ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_State_NotPressed@button button `*.39S1074  1 p 2 39 ]
+"321
+} 0
+"252
+[v _Button_State_Initializing Button_State_Initializing `(v  1 s 1 Button_State_Initializing ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_State_Initializing@button button `*.39S1074  1 p 2 39 ]
+"271
+} 0
+"323
+[v _Button_State_Pressed Button_State_Pressed `(v  1 s 1 Button_State_Pressed ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_State_Pressed@button button `*.39S1074  1 p 2 39 ]
+"340
+} 0
+"621
+[v _Button_DefaultCallback Button_DefaultCallback `(v  1 s 1 Button_DefaultCallback ]
+{
+} 0
+"127 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\application.c
+[v _ProcessButtonRelease ProcessButtonRelease `(v  1 e 1 0 ]
+{
+[v ProcessButtonRelease@button button `E13104  1 a 1 wreg ]
+[v ProcessButtonRelease@button button `E13104  1 a 1 wreg ]
+[v ProcessButtonRelease@button button `E13104  1 a 1 22 ]
+"145
+} 0
+"194 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _MTOUCH_Button_Initialize MTOUCH_Button_Initialize `(v  1 e 1 0 ]
+{
+[v MTOUCH_Button_Initialize@name name `E13138  1 a 1 wreg ]
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"196
+[v MTOUCH_Button_Initialize@button button `*.39S1074  1 a 2 22 ]
+"194
+[v MTOUCH_Button_Initialize@name name `E13138  1 a 1 wreg ]
+"196
+[v MTOUCH_Button_Initialize@name name `E13138  1 a 1 21 ]
+"204
+} 0
+"795 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Calibrate MTOUCH_Sensor_Calibrate `(v  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E13072  1 a 1 wreg ]
+"797
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E13072  1 a 1 20 ]
+"801
+} 0
+"578 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _Button_Check_AKS_Block Button_Check_AKS_Block `(a  1 s 1 Button_Check_AKS_Block ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"582
+[v Button_Check_AKS_Block@check_button check_button `*.39S1074  1 a 2 37 ]
+"581
+[v Button_Check_AKS_Block@surplus_deviation_check_button surplus_deviation_check_button `s  1 a 2 35 ]
+[v Button_Check_AKS_Block@surplus_deviation_this_button surplus_deviation_this_button `s  1 a 2 32 ]
+"580
+[v Button_Check_AKS_Block@currentAKSGroup currentAKSGroup `E13448  1 a 1 34 ]
+"578
+[v Button_Check_AKS_Block@button button `*.39S1074  1 p 2 28 ]
+"612
+} 0
+"739 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(a  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E13072  1 a 1 wreg ]
+"741
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E13072  1 a 1 20 ]
+"745
+} 0
+"471 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _Button_Unscaled_Deviation_Get Button_Unscaled_Deviation_Get `(us  1 s 2 Button_Unscaled_Deviation_Get ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Unscaled_Deviation_Get@button button `*.39S1074  1 p 2 20 ]
+"474
+} 0
+"535
+[v _Button_Baseline_Update Button_Baseline_Update `(v  1 s 1 Button_Baseline_Update ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Baseline_Update@button button `*.39S1074  1 p 2 20 ]
+"549
+} 0
+"529
+[v _Button_Baseline_Initialize Button_Baseline_Initialize `(v  1 s 1 Button_Baseline_Initialize ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Baseline_Initialize@button button `*.39S1074  1 p 2 23 ]
+"533
+} 0
+"502
+[v _Button_Reading_Update Button_Reading_Update `(v  1 s 1 Button_Reading_Update ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Reading_Update@button button `*.39S1074  1 p 2 27 ]
+"514
+} 0
+"516
+[v _Button_Reading_Update_Helper Button_Reading_Update_Helper `(v  1 s 1 Button_Reading_Update_Helper ]
+{
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Reading_Update_Helper@button button `*.39S1074  1 p 2 23 ]
+"527
+} 0
+"622 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `(us  1 e 2 0 ]
+{
+[v MTOUCH_Sensor_RawSample_Get@name name `E13072  1 a 1 wreg ]
+[v MTOUCH_Sensor_RawSample_Get@name name `E13072  1 a 1 wreg ]
+"624
+[v MTOUCH_Sensor_RawSample_Get@name name `E13072  1 a 1 22 ]
+"630
+} 0
+"449 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_button.c
+[v _Button_Deviation_Update Button_Deviation_Update `(v  1 s 1 Button_Deviation_Update ]
+{
+"451
+[v Button_Deviation_Update@deviation deviation `l  1 a 4 32 ]
+[s S1074 . 17 `CE13138 1 name 1 0 `CE13072 1 sensor 1 1 `E13444 1 state 1 2 `E13448 1 aks_group 1 3 `us 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `us 1 counter 2 11 `us 1 baseline_count 2 13 `uc 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"449
+[v Button_Deviation_Update@button button `*.39S1074  1 p 2 20 ]
+"469
+} 0
+"626
+[v _MTOUCH_Button_SetNotPressedCallback MTOUCH_Button_SetNotPressedCallback `(v  1 e 1 0 ]
+{
+[v MTOUCH_Button_SetNotPressedCallback@callback callback `*.38(v  1 p 3 20 ]
+"629
+} 0
+"29 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\application.c
+[v _ApplicationTask ApplicationTask `(v  1 e 1 0 ]
+{
+"31
+[v ApplicationTask@motorSpeed motorSpeed `us  1 a 2 26 ]
+"125
+} 0
+"62 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/pwm/src/pwm4.c
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM4_LoadDutyValue@dutyValue dutyValue `us  1 p 2 20 ]
+"69
+} 0
+"174 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\application.c
+[v _GetMotorSpeed GetMotorSpeed `(us  1 e 2 0 ]
+{
+"176
+[v GetMotorSpeed@retVal retVal `us  1 a 2 22 ]
+"174
+[v GetMotorSpeed@adcVal adcVal `us  1 p 2 20 ]
+"225
+} 0
+"154
+[v _GetEvent GetEvent `(E13277  1 e 1 0 ]
+{
+"157
+} 0
+"164
+[v _GetButton GetButton `(E13283  1 e 1 0 ]
+{
+"167
+} 0
+"159
+[v _ClearEvent ClearEvent `(v  1 e 1 0 ]
+{
+"162
+} 0
+"169
+[v _ClearButton ClearButton `(v  1 e 1 0 ]
+{
+"172
+} 0
+"80 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"102
+} 0
+"130 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"132
+} 0
+"285 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_ThresholdISR ADCC_ThresholdISR `(v  1 e 1 0 ]
+{
+"294
+} 0
+"301
+[v _ADCC_DefaultADTI_ISR ADCC_DefaultADTI_ISR `(v  1 s 1 ADCC_DefaultADTI_ISR ]
+{
+"305
+} 0
+"538 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _ADCC_ThresholdISR_mTouch ADCC_ThresholdISR_mTouch `(v  1 e 1 0 ]
+{
+"543
+} 0
+"551
+[v _MTOUCH_Sensor_Service MTOUCH_Sensor_Service `T(v  1 s 1 MTOUCH_Sensor_Service ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+"553
+[v MTOUCH_Sensor_Service@sensor sensor `*.30S1882  1 a 1 13 ]
+"603
+} 0
+"405
+[v i2_Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 i2_Sensor_scheduleNextScan ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+"407
+[v i2Sensor_scheduleNextScan@sensor sensor `*.30S1882  1 a 1 10 ]
+"408
+[v i2Sensor_scheduleNextScan@skipScan skipScan `a  1 a 1 9 ]
+"409
+[v i2Sensor_scheduleNextScan@state state `a  1 a 1 8 ]
+"459
+} 0
+"829
+[v i2_Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(a  1 s 1 i2_Sensor_isCalibratingAcqTime ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v i2Sensor_isCalibratingAcqTime@sensor sensor `*.30S1882  1 p 1 0 ]
+"833
+} 0
+"811
+[v i2_Sensor_isCalibrated Sensor_isCalibrated `T(a  1 s 1 i2_Sensor_isCalibrated ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v i2Sensor_isCalibrated@sensor sensor `*.30S1882  1 p 1 0 ]
+"814
+} 0
+"242
+[v i2_Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 i2_Sensor_SetTrisBit ]
+{
+[v i2Sensor_SetTrisBit@sensor sensor `E13072  1 a 1 wreg ]
+[v i2Sensor_SetTrisBit@sensor sensor `E13072  1 a 1 wreg ]
+[v i2Sensor_SetTrisBit@TrisBit TrisBit `uc  1 p 1 0 ]
+[v i2Sensor_SetTrisBit@sensor sensor `E13072  1 a 1 3 ]
+"264
+} 0
+"851
+[v i2_MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(a  1 e 1 0 ]
+{
+[v i2MTOUCH_Sensor_wasSampled@sensor sensor `E13072  1 a 1 wreg ]
+[v i2MTOUCH_Sensor_wasSampled@sensor sensor `E13072  1 a 1 wreg ]
+"853
+[v i2MTOUCH_Sensor_wasSampled@sensor sensor `E13072  1 a 1 0 ]
+"857
+} 0
+"739
+[v i2_MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(a  1 e 1 0 ]
+{
+[v i2MTOUCH_Sensor_isEnabled@sensor sensor `E13072  1 a 1 wreg ]
+[v i2MTOUCH_Sensor_isEnabled@sensor sensor `E13072  1 a 1 wreg ]
+"741
+[v i2MTOUCH_Sensor_isEnabled@sensor sensor `E13072  1 a 1 0 ]
+"745
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 0 ]
+"4
+} 0
+"864 C:\BitBucket\PIC18F47Q10 ADC-DC-MOTORWITH TOUCH INTERFACE\pic18f47q10-adc-dc-motor-with-touch-interface-mplab\pic18f47q10-adc-dc-motor-with-touch-interface-mplab .X\mcc_generated_files/touch/mtouch_sensor.c
+[v _Sensor_setSampled Sensor_setSampled `T(v  1 s 1 Sensor_setSampled ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v Sensor_setSampled@sensor sensor `*.30S1882  1 p 1 0 ]
+"867
+} 0
+"816
+[v _Sensor_setCalibrated Sensor_setCalibrated `(v  1 s 1 Sensor_setCalibrated ]
+{
+[s S1882 . 10 `CE13072 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `us 1 oversampling 2 4 `uc 1 addcap 1 6 `us 1 rawSample 2 7 `uc 1 enabled 1 9 :1:0 
+`uc 1 sampled 1 9 :1:1 
+`uc 1 active 1 9 :1:2 
+`uc 1 calibrated 1 9 :1:3 
+`uc 1 acqTime_cal 1 9 :1:4 
+]
+[v Sensor_setCalibrated@sensor sensor `*.30S1882  1 p 1 0 ]
+"820
+} 0
